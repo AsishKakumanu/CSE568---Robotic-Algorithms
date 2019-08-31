@@ -1,0 +1,3 @@
+<launch>
+        <node name="message" pkg="lab4" type="bayesFilter.py" args="$(find lab4)/scripts/bayesFilter.py" output='screen'/>
+</launch>
